@@ -51,6 +51,13 @@ header {
   align-items: center;
 }
 
+.logo img {
+  max-width: 100%;
+  min-width: 150px;
+  height: auto;
+  margin: auto;
+}
+
 .logo-text {
   font-size: 24px;
   font-weight: bold;
