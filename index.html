@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>ByePuff</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-    <link rel="stylesheet" href="styles.css">
+    <link href="assets/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="assets/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HF7R3398HJ"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'G-HF7R3398HJ');
@@ -21,9 +25,11 @@
 <header>
     <div class="container">
         <nav class="navbar">
-            <div class="logo">
-                <img src="assets/byepuff.svg" alt="ByePuff">
-            </div>
+            <a href="index.html">
+                <div class="logo">
+                    <img alt="ByePuff" src="assets/byepuff.svg">
+                </div>
+            </a>
         </nav>
     </div>
 </header>
@@ -32,38 +38,42 @@
     <div class="container">
         <div class="hero-content">
             <div class="hero-text">
-                <p>COMING SOON</p>
                 <h1>Break Free from Smoking</h1>
-                <p>You don't have to quit alone. Your smoke-quitting bot makes the process easier, kinder, and totally doable.</p>
+                <p>You don't have to quit alone. Your smoke-quitting bot makes the process easier, kinder, and totally
+                    doable.</p>
             </div>
             <div class="hero-image">
-                <img src="assets/hero.png" alt="hero logo">
+                <img alt="hero logo" src="assets/hero.png">
             </div>
         </div>
     </div>
 </section>
 
-<section id="features" class="features">
+<section class="features" id="features">
     <div class="container">
         <div class="section-heading">
             <h2>Ready to Quit Smoking?</h2>
-            <p>Quit smoking with our chat buddy—no extra apps needed. Just focus on yourself and take it one step at a time.</p>
+            <p>Quit smoking with our chat buddy—no extra apps needed. Just focus on yourself and take it one step at a
+                time.</p>
         </div>
         <div class="feature-grid">
             <div class="feature-card">
-                <img src="assets/quit.png" alt="Personalized Plans">
+                <img alt="Reminder to quit smoking" src="assets/quit.png">
                 <h3>Reminder to quit smoking</h3>
-                <p>Chat with the ByePuff bot on Telegram to kickstart your smoke-free journey. Set your goals, receive motivational reminders to keep you on track.</p>
+                <p>Chat with the ByePuff bot on Telegram to kickstart your smoke-free journey. Set your goals, receive
+                    motivational reminders to keep you on track.</p>
             </div>
             <div class="feature-card">
-                <img src="assets/progress.png" alt="Progress Tracking">
+                <img alt="Progress Tracking" src="assets/progress.png">
                 <h3>Keep track of your progress</h3>
-                <p>Stay motivated by tracking your progress with key milestones. Watch the days add up as you go smoke-free—it never gets old!</p>
+                <p>Stay motivated by tracking your progress with key milestones. Watch the days add up as you go
+                    smoke-free—it never gets old!</p>
             </div>
             <div class="feature-card">
-                <img src="assets/guilt.png" alt="Community Support">
+                <img alt="Community Support" src="assets/guilt.png">
                 <h3>Guilt free chat buddy</h3>
-                <p>Our chat buddy isn’t here to judge smokers. We appreciate and respect people's choices and decisions in their lives.</p>
+                <p>Our chat buddy isn’t here to judge smokers. We appreciate and respect people's choices and decisions
+                    in their lives.</p>
             </div>
         </div>
     </div>
@@ -75,6 +85,7 @@
     </div>
     <div class="copyright">
         <p>&copy; 2025 ByePuff. All rights reserved. by <a href="https://www.base87.tech">Base87 Tech</a></p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
     </div>
 </footer>
 </body>
